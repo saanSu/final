@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="guest.home" template="/WEB-INF/tiles/guest-template.jsp">
+		<put-attribute name="nav" value="/WEB-INF/views/guest/nav.jsp"/>
+		<put-attribute name="left" value="/WEB-INF/views/guest/side.jsp"/>
+		<put-attribute name="center" value="/WEB-INF/views/guest/home.jsp"/>
+	</definition>
+	<definition name="guest.modify" template="/WEB-INF/tiles/guest-template.jsp">
+		<put-attribute name="nav" value="/WEB-INF/views/guest/nav.jsp"/>
+		<put-attribute name="left" value="/WEB-INF/views/guest/side.jsp"/>
+		<put-attribute name="center" value="/WEB-INF/views/guest/private/modify.jsp"/>
+	</definition>
+	<definition name="guest.chat" template="/WEB-INF/tiles/guest-template.jsp">
+		<put-attribute name="nav" value="/WEB-INF/views/guest/nav.jsp"/>
+		<put-attribute name="left" value="/WEB-INF/views/guest/side.jsp"/>
+		<put-attribute name="center" value="/WEB-INF/views/guest/chat/room.jsp"/>
+	</definition>
+</tiles-definitions>

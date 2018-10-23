@@ -27,6 +27,12 @@
 		</plugins>
 	</build>
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-websocket -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-websocket</artifactId>
+			<version>5.1.0.RELEASE</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.tiles/tiles-el -->
 		<dependency>
 			<groupId>org.apache.tiles</groupId>
